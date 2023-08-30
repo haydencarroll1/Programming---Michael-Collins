@@ -1,16 +1,18 @@
 #include <stdio.h>
+
+struct date
+{
+    int day; 
+    int month; 
+    int year;
+};
+struct 
+{
+    char full_name[21]; 
+    struct date birthday;
+}details;
+
 int main()
 {
-int counter, output;
-
-for(counter = 1;counter<101;counter++)
-{
-    if((counter%2)==0)
-    {
-        printf("%d, ",counter);
-
-    }
-
-}
     return 0;
 }

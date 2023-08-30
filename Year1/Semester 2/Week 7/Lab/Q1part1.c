@@ -27,7 +27,7 @@ int main()
         }
         else if(result == 0)
         {
-            printf("\nWelome back %s!\n", names[i]);
+            printf("Welome back %s!\n", names[i]);
             break;
         }
     }
